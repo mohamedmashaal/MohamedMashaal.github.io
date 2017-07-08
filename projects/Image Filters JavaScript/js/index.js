@@ -150,6 +150,11 @@ function Rainbow(){
   }
   image.drawTo(cv);
 }
+function Clear(){
+var cv = document.getElementById("can");
+var ctx1 = cv.getContext("2d");
+ctx1.clearRect(0,0,cv.width,cv.height);
+}
 function Reset(){
 var cv = document.getElementById("can");
 var ctx1 = cv.getContext("2d");
