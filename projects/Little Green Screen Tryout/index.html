@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Mohamed Mashaal</title>
+  <script src= "https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" ></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <script src= "http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" ></script>
+<div id ="new"><h1>Hello To Green Screen Page</h1></div>
+<div style = "margin-left : 20%;">
+<canvas id = "can"></canvas>
+<canvas id = "can2"></canvas>
+</div >
+<div style = "text-align:center;"> 
+Upload FrontImage :
+<input  id ="file1" type="file" multiple="false"
+accept ="image/*" onchange="UploadfImage()" >
+</div >
+<div style = "text-align:center;">
+Upload BackImage :
+<input id ="file2" type="file" multiple="false"
+accept ="image/*" onchange="UploadbImage()" >
+</div >
+<div id ="dv2"><input id ="btn" type="button" value="ComposeBoth" onclick="Compose()">
+<input id ="btn" type="button" value="Clear Area" onclick="Clear()"></div>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>

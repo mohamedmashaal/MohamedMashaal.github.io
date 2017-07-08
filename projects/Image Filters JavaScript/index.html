@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Mohamed Mashaal</title>
+  <script src= "https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" ></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <script src= "http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" ></script>
+<div id ="new"><h1>Filter Me</h1></div>
+<div style = "width: 100%;
+   text-align:center;">
+<canvas id = "can"></canvas>
+</div >
+<div style = "text-align:center;"> 
+Upload The Image : 
+<input  id ="file" type="file" multiple="false"
+accept ="image/*" onchange="UploadImage()" >
+</div >
+<div id = "dv1">
+Choose Your Filter</div>
+<div id ="dv2"><input id ="btn" type="button" value="Grayscale" onclick="greyscale()">
+<input id ="btn" type="button" value="Red" onclick="setR()">
+<input id ="btn" type="button" value="Rainbow" onclick="Clear()">
+<input id ="btn" type="button" value="Window" onclick="Window()">
+<input id ="btn" type="button" value="Rainbow" onclick="Rainbow()">
+<input id ="btn" type="button" value="Reset" onclick="Reset()"></div>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
