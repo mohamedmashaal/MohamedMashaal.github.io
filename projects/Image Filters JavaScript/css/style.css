@@ -1,0 +1,48 @@
+body{
+background-color:#F1F3F1;
+font-family:"Comic Sans MS", cursive, sans-serif;
+}
+canvas{
+  border :solid 5px #434343 ;
+  height:350px;
+  width:520px;
+}
+#new{
+  padding: 10px 10px 10px 10px ;
+  background-color :#FF0537;
+  border-radius:6px;
+  margin-bottom: 20px ;
+}
+#dv1{
+  position :center;
+  width:200px;
+  
+  margin: auto;
+  margin-top:10px;
+  padding: 20px 20px 20px 20px ;
+  background-color :#007ABC;
+  border-radius:6px;
+  margin-bottom: 10px ;
+  text-align:center;
+}
+#dv2{
+  margin:auto;
+  width:50%;
+  margin-top: 20px ;
+  padding: 20px 20px 20px 20px ;
+  background-color :#0FFFFB;
+  border-radius:6px;
+  margin-bottom: 10px ;
+  text-align:center;
+}
+h1{
+  color: #000;
+  text-align:center;
+}
+#btn{
+  text-align:center;
+  color:#000;
+  background-color:#FF05B4;
+  border-radius:6px;
+  border : 1px solid #000 ;
+}
