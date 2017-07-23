@@ -10,7 +10,7 @@ body{
     height: 100%;
     position: relative;
     width: 100%;
-    min-height: 500px;
+    min-height: 300px;
     text-align: left;
     color: rgb(255, 255, 255);
 }
@@ -73,7 +73,7 @@ line-height:1.15;
     max-width: 100%;
     margin-left: auto ;
     margin-right: auto ;
-    margin-right: 46px;
+    margin-right: 10%;
 }   
 .list-unstyled {
 	padding-left: 0;
