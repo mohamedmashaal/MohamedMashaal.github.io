@@ -10,7 +10,7 @@ body{
     height: 100%;
     position: relative;
     width: 100%;
-    min-height: inherit;
+    min-height: 500px;
     text-align: left;
     color: rgb(255, 255, 255);
 }
