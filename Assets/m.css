@@ -54,6 +54,7 @@ body{
  background-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(22, 22, 22) 18%, rgb(44, 44, 44) 52%, rgb(22, 22, 22) 79%, rgb(0, 0, 0) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+line-height:1.15;
 }
 #ribbon{
     width: 50px;
