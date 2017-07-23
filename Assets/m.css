@@ -3,14 +3,14 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-	background-size:100% auto;
+	background-size:auto;
 }
 .header{
     margin-bottom: 5%;
     height: 100%;
     position: relative;
     width: 100%;
-    min-height: 300px;
+    min-height: inherit;
     text-align: left;
     color: rgb(255, 255, 255);
 }
