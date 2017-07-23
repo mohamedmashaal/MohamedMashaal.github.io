@@ -3,7 +3,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-	background-size:100% 100vh;
+	background-size:100% auto;
 }
 .header{
     margin-bottom: 5%;
