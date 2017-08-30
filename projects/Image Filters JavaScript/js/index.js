@@ -40,6 +40,8 @@ function setR(){
   image.drawTo(cv);
 }
 function Window(){
+  if(image == null || !image.complete())
+    alert("Please Upload the Image");
   var cv = document.getElementById("can");
   var w = image.getWidth();
   var h = image.getHeight();
@@ -63,6 +65,8 @@ function Window(){
   image.drawTo(cv);
 }
 function Rainbow(){
+  if(image == null || !image.complete())
+    alert("Please Upload the Image");
   var cv = document.getElementById("can");
   var w = image.getWidth();
   var h = image.getHeight();
