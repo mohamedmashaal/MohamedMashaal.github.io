@@ -159,6 +159,6 @@ function Reset(){
 var cv = document.getElementById("can");
 var ctx1 = cv.getContext("2d");
 ctx1.clearRect(0,0,cv.width,cv.height);
-image = backupimage ;
+image = new SimpleImage(backupimage);
 backupimage.drawTo(cv);
 }
