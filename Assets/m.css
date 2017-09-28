@@ -14,7 +14,7 @@ body{
     height: 100%;
     position: relative;
     width: 100%;
-    min-height: 300px;
+    min-height: 50%;
     text-align: left;
     color: rgb(255, 255, 255);
 }
@@ -48,6 +48,7 @@ body{
     background-image: linear-gradient(135deg, rgb(186, 186, 186) 0%, rgb(212, 212, 212) 50%, rgb(237, 237, 237) 100%);
     box-shadow: 0px 0px 120px 10px rgba(130, 130, 130, 0.65);
     border-radius: 5px;
+    text-align: center;
 }
 .text-style{
   font-weight: 100;
@@ -72,17 +73,16 @@ line-height:1.15;
 #box-ribbon{
     float: left;
     width: 50px;
-    height: 50px; 
+    height: 50px;
 }
 #profileimg{
     margin-top:12px;
     width: 100px;
     height: 100px;
     max-width: 100%;
-    margin-left: auto ;
-    margin-right: auto ;
-    margin-right: 10%;
-}   
+    display:inline-block;
+}
+
 .list-unstyled {
 	padding-left: 0;
 	list-style: none;
