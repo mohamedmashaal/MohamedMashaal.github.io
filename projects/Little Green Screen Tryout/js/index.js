@@ -35,4 +35,6 @@ var ctx1 = cv.getContext("2d");
 var ctx2 = cv2.getContext("2d");
 ctx1.clearRect(0,0,cv.width,cv.height);
 ctx2.clearRect(0,0,cv2.width,cv2.height);
+fimage = null;
+bimage = null;
 }

@@ -40,6 +40,8 @@ function setR(){
   image.drawTo(cv);
 }
 function Window(){
+  if(image == null || !image.complete())
+    alert("Please Upload the Image");
   var cv = document.getElementById("can");
   var w = image.getWidth();
   var h = image.getHeight();
@@ -63,6 +65,8 @@ function Window(){
   image.drawTo(cv);
 }
 function Rainbow(){
+  if(image == null || !image.complete())
+    alert("Please Upload the Image");
   var cv = document.getElementById("can");
   var w = image.getWidth();
   var h = image.getHeight();
@@ -153,11 +157,14 @@ function Rainbow(){
 function Clear(){
 var cv = document.getElementById("can");
 var ctx1 = cv.getContext("2d");
-ctx1.clearRect(0,0,cv.width(),cv.height());
+ctx1.clearRect(0,0,cv.width,cv.height);
+image = null ;
+backupimage = null ;
 }
 function Reset(){
 var cv = document.getElementById("can");
 var ctx1 = cv.getContext("2d");
-ctx1.clearRect(0,0,cv.width(),cv.height());
+ctx1.clearRect(0,0,cv.width,cv.height);
+image = new SimpleImage(backupimage);
 backupimage.drawTo(cv);
 }
