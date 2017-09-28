@@ -32,7 +32,10 @@ body{
     text-align: center;
 }
 .rowss{
-    margin-top:10px; 
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top:10px;
+    text-align: center ;
 }
 .hr_edit{
   border: 0; 
@@ -49,6 +52,7 @@ body{
 .text-style{
   font-weight: 100;
   font-size: small;
+  text-align: center;
   background-image: linear-gradient(rgb(102, 102, 102) 0%, rgb(44, 44, 44) 25%, rgb(0, 0, 0) 54%, rgb(28, 28, 28) 77%, rgb(125, 125, 125) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
