@@ -1,0 +1,31 @@
+body{
+	background-image: linear-gradient( #D3CCE3 0%,  #E9E4F0 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+	background-size:cover; 
+}
+
+#current_price{
+	background-color: #EDB21D;
+	padding: 5px;
+	border-radius: 4px;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+#mid_container{
+	background-color: #f8f9fa;
+	height: 500px;
+	padding: 5px;
+	border-radius: 4px;
+	font-size: 120%; 
+}
+
+#btc{
+	position:relative;
+	top: 10%;
+	border-radius: 4px;
+	font-size: 110%;
+	text-align: center;
+}

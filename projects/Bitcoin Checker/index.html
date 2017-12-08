@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hello, world!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/application.js"></script>
+    <link rel="stylesheet" href="assets/css/css.css">
+  </head>
+  <body>
+  <header id="header" class="">
+    <nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="assets/btc.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+    Bitcoin Checker
+  </a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" id="current_price"></a>
+    </li>
+  </ul>
+</nav>   
+  </header>
+
+<div class="container-fluid">
+  <div class="row" style = "margin: 10px;">
+    
+  </div>
+  <div class ="row">
+    <div class="col-8 offset-md-2">
+      <div class="col-8 offset-md-2" id="mid_container" style="text-align: center;">
+        <div class="input-group mt-5 w-75 mx-auto">
+  <span class="input-group-addon">$</span>
+  <input type="text" id = "usd" class="form-control" aria-label="Amount (to the nearest dollar)">
+  <span class="input-group-addon">.00</span>
+      <button type="button" class="btn btn-dark" id ="btc_button">BTC</button>
+      </div>
+      <div class="mx-auto w-50 p-5 bg-primary text-white" id="btc"></div>
+    </div>  
+    </div>
+    
+  </div>
+</div>
+  </body>
+</html>
