@@ -9,15 +9,6 @@ body{
     background-attachment: fixed;
 	background-size:cover;
 }
-.widgetContainer{
-  width:300px;
-  height: 190px; 
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
-  bottom: 0; right: 0;  left: 0;
-}
-
 .header{
     height: 100%;
     position: relative;
